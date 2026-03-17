@@ -17,7 +17,7 @@ class StatusUpdateButton extends ConsumerWidget {
     return switch (current) {
       OrderStatus.assigned => OrderStatus.pickedUp,
       OrderStatus.pickedUp => OrderStatus.enRoute,
-      OrderStatus.enRoute => null, // Can go to DELIVERED or FAILED
+      OrderStatus.enRoute => null,
       OrderStatus.delivered => null,
       OrderStatus.failed => null,
     };
