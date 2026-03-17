@@ -9,7 +9,7 @@ class ApiEndpoints {
   static const String updateOrderStatus = '/orders';
 
  
-  static const String webSocketUrl = 'https://emec-flutter-assignment.onrender.com';
+  static const String webSocketUrl = 'wss://emec-flutter-assignment.onrender.com';
 
 
   static String getOrderById(String orderId) => '$getOrder/$orderId';
