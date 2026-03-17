@@ -36,7 +36,7 @@ const wss = new WebSocketServer({
   host: '0.0.0.0'
 });
 
-console.log(`WebSocket server running on port ${WS_PORT}`);
+console.log(`WebSocket server running on ws://0.0.0.0:${WS_PORT}`);
 
 wss.on('connection', (ws) => {
   console.log('Client connected to WebSocket');
