@@ -1,0 +1,140 @@
+{
+  "driver": {
+    "id": "d1",
+    "name": "Rahim Chowdhury",
+    "vehicle": "Bike"
+  },
+  "shift": {
+    "driver": {
+      "id": "d1",
+      "name": "Rahim Chowdhury",
+      "vehicle": "Bike"
+    },
+    "shift_date": "2025-05-01",
+    "route_geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          90.4125,
+          23.8103
+        ],
+        [
+          90.3795,
+          23.8759
+        ],
+        [
+          90.405,
+          23.7946
+        ],
+        [
+          90.4147,
+          23.7808
+        ]
+      ]
+    },
+    "orders": [
+      {
+        "id": "order-001",
+        "sequence": 1,
+        "status": "ASSIGNED",
+        "customer_name": "Ayasha Begum",
+        "address": "12 Kemal Ataturk Ave, Banani",
+        "lat": 23.7946,
+        "lng": 90.405,
+        "time_window_start": "13:00",
+        "time_window_end": "15:00",
+        "items": [
+          "Laptop bag x1",
+          "Phone charger x2"
+        ],
+        "delivery_instructions": "Call on arrival. Gate code: 4521.",
+        "total_bdt": 2850
+      },
+      {
+        "id": "order-002",
+        "sequence": 2,
+        "status": "ASSIGNED",
+        "customer_name": "Kamal Hossain",
+        "address": "Road 90 House 14, Gulshan 2",
+        "lat": 23.7808,
+        "lng": 90.4147,
+        "time_window_start": "14:00",
+        "time_window_end": "16:30",
+        "items": [
+          "Rice 5kg x2",
+          "Oil 1L x3"
+        ],
+        "delivery_instructions": "Leave with security",
+        "total_bdt": 1450
+      },
+      {
+        "id": "order-003",
+        "sequence": 3,
+        "status": "ASSIGNED",
+        "customer_name": "Nadia Islam",
+        "address": "House 5 Sector 7, Uttara",
+        "lat": 23.8759,
+        "lng": 90.3795,
+        "time_window_start": "12:30",
+        "time_window_end": "14:00",
+        "items": [
+          "Medicine package x1"
+        ],
+        "delivery_instructions": "Call before arrival",
+        "total_bdt": 680
+      }
+    ]
+  },
+  "orders": [
+    {
+      "id": "order-001",
+      "sequence": 1,
+      "status": "DELIVERED",
+      "customer_name": "Ayasha Begum",
+      "address": "12 Kemal Ataturk Ave, Banani",
+      "lat": 23.7946,
+      "lng": 90.405,
+      "time_window_start": "13:00",
+      "time_window_end": "15:00",
+      "items": [
+        "Laptop bag x1",
+        "Phone charger x2"
+      ],
+      "delivery_instructions": "Call on arrival. Gate code: 4521.",
+      "total_bdt": 2850
+    },
+    {
+      "id": "order-002",
+      "sequence": 2,
+      "status": "FAILED",
+      "customer_name": "Kamal Hossain",
+      "address": "Road 90 House 14, Gulshan 2",
+      "lat": 23.7808,
+      "lng": 90.4147,
+      "time_window_start": "14:00",
+      "time_window_end": "16:30",
+      "items": [
+        "Rice 5kg x2",
+        "Oil 1L x3"
+      ],
+      "delivery_instructions": "Leave with security",
+      "total_bdt": 1450
+    },
+    {
+      "id": "order-003",
+      "sequence": 3,
+      "status": "DELIVERED",
+      "customer_name": "Nadia Islam",
+      "address": "House 5 Sector 7, Uttara",
+      "lat": 23.8759,
+      "lng": 90.3795,
+      "time_window_start": "12:30",
+      "time_window_end": "14:00",
+      "items": [
+        "Medicine package x1"
+      ],
+      "delivery_instructions": "Call before arrival",
+      "total_bdt": 680
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "/driver/shift": "/shift",
+  "/orders/:id/status": "/orders/:id"
+}

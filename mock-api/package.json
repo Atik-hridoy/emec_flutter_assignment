@@ -1,0 +1,25 @@
+{
+  "name": "emec-mock-api",
+  "version": "1.0.0",
+  "description": "Mock API server for EMEC Driver Companion App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"npm run start\" \"npm run ws\"",
+    "api": "json-server --watch db.json --port 3000 --host 0.0.0.0 --routes routes.json",
+    "ws": "node ws-server.js"
+  },
+  "keywords": ["api", "mock", "json-server", "websocket"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
