@@ -8,8 +8,8 @@ class ApiEndpoints {
   static const String getOrder = '/orders';
   static const String updateOrderStatus = '/orders';
 
-  // WebSocket - using 10.0.2.2 for Android emulator
-  static const String webSocketUrl = 'ws://10.0.2.2:3001';
+  // WebSocket - using 10.0.2.2 for Android emulator (same port as HTTP now)
+  static const String webSocketUrl = 'ws://10.0.2.2:3000';
 
   // Helper methods for dynamic endpoints
   static String getOrderById(String orderId) => '$getOrder/$orderId';
